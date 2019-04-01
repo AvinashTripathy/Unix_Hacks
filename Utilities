@@ -2,3 +2,6 @@ grep -r -i CHannel > check_nfound.txt
 
 grep -r -i --include=*.sas CHannel > check_nfound.txt
 grep -r -i --include=*.txt CHannel > check_nfound.txt
+
+See the GB Sized Folder/Files in a directory
+du -sh * | grep 'G' > large_files.txt &
